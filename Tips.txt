@@ -5,3 +5,7 @@ pull: permite traer los ultimos cambios y los mergea automaticamente al branch e
 add: pone disponibles los cambios para que luego puedan commitearse
 commit: saca una foto de todos los cambios para que esa foto luego se suba al origin mediante el push
 push: sube a origin todos los cambios incluidos en el commit previo
+
+
+
+Nota: si abro con atom un archivo que habia entrado en confilcto al hacer el pull, en atom me muestra las anotaciones de git para corregir el conflicto
