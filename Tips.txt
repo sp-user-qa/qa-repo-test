@@ -1,0 +1,7 @@
+branch: informa en que rama estoy parado, y si le paso el nombre de una rama, la crea
+checkout: permite cambiar de una rama a otra, ademas si se pasa el parametro "-b" permite crear una nueva branch y posicionarse en ella
+fetch: permite traer los ultimos cambios pero sin mergearlos al branch en el que estoy parado, los pone en un branch oculto. El usuario debera mergearlo manualmente luego al branch deseado
+pull: permite traer los ultimos cambios y los mergea automaticamente al branch en el que se está parado
+add: pone disponibles los cambios para que luego puedan commitearse
+commit: saca una foto de todos los cambios para que esa foto luego se suba al origin mediante el push
+push: sube a origin todos los cambios incluidos en el commit previo
